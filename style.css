@@ -1,0 +1,75 @@
+body {
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+    background-color: #fefae0;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    padding: 20px 40px;
+    background-color: #ccd5ae;
+    align-items: center;
+}
+
+header h1 {
+    grid-column: span 6;
+}
+
+header nav {
+    grid-column: 7 / span 6;
+    justify-self: right;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+main {
+    padding: 20px;
+    margin: 60px auto;
+    max-width: 1200px;
+}
+
+main img {
+    grid-column: 4;
+    width: 100%;
+}
+
+main .welcome {
+    grid-column: 1 / span 12;
+    text-align: center;
+}
+
+main h3 {
+    grid-column: span 12;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+main .card {
+    grid-column: span 4;
+    text-align: center;
+    background-color: #faedcd;
+    padding: 10px 20px;
+}
+
+footer {
+    margin: 0%;
+    padding: 20px 40px;
+    background-color: #d4a373;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
